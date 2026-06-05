@@ -1,0 +1,20 @@
+{
+  "name": "cypress-project-ai",
+  "version": "1.0.0",
+  "description": "Suite de testes E2E com Cypress para o Hub de Leitura",
+  "scripts": {
+    "open": "cypress open",
+    "run": "cypress run",
+    "run:login": "cypress run --spec cypress/e2e/login.cy.js",
+    "run:cadastro": "cypress run --spec cypress/e2e/cadastro.cy.js",
+    "run:catalogo": "cypress run --spec cypress/e2e/catalogo.cy.js",
+    "run:seguranca": "cypress run --spec cypress/e2e/seguranca.cy.js",
+    "run:admin": "cypress run --spec cypress/e2e/admin.cy.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "cypress": "^15.16.0"
+  }
+}
